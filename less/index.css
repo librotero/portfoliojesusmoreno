@@ -6,7 +6,7 @@
 }
 .container__all {
   position: relative;
-  right: 0;
+  right: 150px;
   transition: all 300ms;
 }
 header {
@@ -23,7 +23,7 @@ header {
   right: 180px;
 }
 .container__header {
-  max-width: 1200px;
+  max-width: 1160px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -68,8 +68,12 @@ nav ul li a {
   border-radius: 20px;
 }
 .nav_mod {
-  background-color: rgba(255, 255, 255, 0.685);
-  height: 80px;
+  background-color: rgba(255, 255, 255, 0.856);
+  height: 70px;
+  padding-top: 1vw;
+}
+.nav_mod .logo img {
+  width: 100px;
 }
 .btn__menu {
   width: 50px;
@@ -101,7 +105,6 @@ nav ul li a {
     position: fixed;
     top: 0;
     right: -210px;
-    padding: 0.5 40px;
     transition: all 300ms;
   }
   .move_nav {
@@ -112,6 +115,7 @@ nav ul li a {
   }
   nav ul li {
     margin: 20px 0px;
+    padding-right: 5vw;
   }
   .container__vector img {
     transform: scale(0);
@@ -136,6 +140,8 @@ nav ul li a {
   background-image: url("https://img.freepik.com/foto-gratis/retrato-tipo-rizado-sonriente-que-sostiene-tarjeta-credito-telefono-inteligente-usando-aplicacion-hacer-compra-linea-pie-sobre-fondo-blanco_176420-47923.jpg?t=st=1650219868~exp=1650220468~hmac=6ad548dbb899ab13729cc83c02c819e66ed355b4866b5549824e67ccb448cfba&w=740");
   background-attachment: fixed;
 }
+/*button init*/
+/*button init*/
 @media screen and (max-width: 760px) {
   .parrallax {
     width: 100%;
@@ -260,11 +266,16 @@ nav ul li a {
     flex: 100%;
     padding: 1vw;
   }
-  .row {
-    padding: 1vw;
-  }
   #section1 {
     height: 150vw;
+  }
+  #galeria .container {
+    padding-top: 15vw;
+  }
+  #galeria .row {
+    display: flex;
+    padding-top: 5vw;
+    flex-wrap: wrap;
   }
 }
 #galeria img:hover {
@@ -370,4 +381,9 @@ container {
 }
 #about h1 {
   color: #363636;
+}
+@media screen and (max-width: 760px) {
+  #about .container {
+    padding-top: 15vw;
+  }
 }

@@ -30,11 +30,16 @@
     flex: 100%;
     padding: 1vw;
   }
-  .row {
-    padding: 1vw;
-  }
   #section1 {
     height: 150vw;
+  }
+  #galeria .container {
+    padding-top: 15vw;
+  }
+  #galeria .row {
+    display: flex;
+    padding-top: 5vw;
+    flex-wrap: wrap;
   }
 }
 #galeria img:hover {

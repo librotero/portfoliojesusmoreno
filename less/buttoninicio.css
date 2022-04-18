@@ -66,11 +66,15 @@
   animation-name: shake;
   justify-content: center;
 }
-.boton {
+.boton  a{
   background-color: #006eff;
   padding: 1vw 0 1vw 0;
   width: 150px;
   border-radius: 10px;
   border: none;
   color: white;
+}
+#square button a{
+  color: white;
+  text-decoration: none;
 }
