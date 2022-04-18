@@ -13,6 +13,6 @@
   height: 700px;
   background-size: cover;
   display: flex;
-  background-image: url("/img/imginicio.jpg");
+  background-image: url("https://img.freepik.com/foto-gratis/empresario-pensativo-sentado-escritorio-oficina-mordiendo-borde-gafas-mirando-arriba-pensando-buscando-inspiracion-como-escribir-cuaderno_176420-15901.jpg?w=740&t=st=1650247520~exp=1650248120~hmac=518e4c090baba4a8b1b2aca948ba3af953cdddf128b9fea542743cd24e254395");
   background-attachment: fixed;
 }
