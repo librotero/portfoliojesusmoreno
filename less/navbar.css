@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*::::::::::::::MODIFICACIONDE LA BARRA DE NAVEGACIÓN::::::::::::::::::::::::::*/
+.nav_mod {
+  height: 70px;
+  background: white;
+}
+/*::::::::::::::::::::::::::::::::::::::::*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .logo img {
+  width: 100px;
+}
+#header .logo:hover {
+  color: #003cff;
+  transition: color 1s;
+  animation: shake 0.82s;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  80%,
+  80% {
+    transform: translate3d(8px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+#header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 15px;
+  color: #0c0b0b;
+}
+#header ul li a:hover,
+#header ul li a:active {
+  color: #003cff;
+  padding: 0.8vw;
+  transition: 0.5s;
+  box-shadow: 0 0.5px 0px #003cff;
+}
