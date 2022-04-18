@@ -23,3 +23,5 @@ menu.classList.toggle('move_content');
 nav.classList.toggle('move_nav');
 
 }
+
+
