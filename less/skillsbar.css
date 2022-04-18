@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+.main {
+  margin-top: 2%;
+}
+.main h3 {
+  padding-left: 5px;
+}
+container {
+  background-color: black;
+  border-radius: 5px;
+}
+.skills {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.html {
+  background-color: #ff5100;
+  animation: fillhtml 2s forwards;
+}
+.css {
+  background-color: #0424d8;
+  animation: fillcss 2s forwards;
+}
+.bootstrap {
+  background-color: #b000c0;
+  animation: fillbootstrap 2s forwards;
+}
+.java {
+  background-color: red;
+  animation: filljava 2s forwards;
+}
+.javascript {
+  background-color: #ffee00;
+  animation: filljavascript 2s forwards;
+}
+.mongodb {
+  background-color: #006d05;
+  animation: fillmongodb 2s forwards;
+}
+.sql {
+  background-color: #5e5c5c;
+  animation: fillsql 2s forwards;
+}
+@keyframes fillhtml {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes fillcss {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes filljava {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes filljavascript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes fillsql {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes fillmongodb {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
