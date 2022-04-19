@@ -289,10 +289,20 @@ nav ul li a {
   padding: 3vw;
 }
 .espaciomax {
-  padding: 6vw;
+  padding: 5vw;
 }
 container {
   border-radius: 5px;
+}
+.main {
+  background-color: #e7e7e7;
+  padding: 2vw;
+  border-radius: 10px;
+}
+.main h3 {
+  color: grey;
+  font-size: 20PX;
+  padding-top: 0.5vw;
 }
 .skills {
   text-align: right;
@@ -385,17 +395,6 @@ container {
 #about h1 {
   color: #0077ff;
 }
-/*SKILlS*/
-.main {
-  background-color: #e7e7e7;
-  padding: 2vw;
-  border-radius: 10px;
-}
-.main h3 {
-  color: grey;
-  font-size: 1vw;
-  padding-top: 0.5vw;
-}
 .contorno {
   margin-right: 2vw;
 }
@@ -403,4 +402,15 @@ container {
   #about .container {
     padding-top: 15vw;
   }
+}
+#footer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 4vw;
+}
+#footer .item {
+  padding-right: 5vw;
 }

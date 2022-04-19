@@ -4,17 +4,6 @@
 #about h1 {
   color: #0077ff;
 }
-/*SKILlS*/
-.main {
-  background-color: #e7e7e7;
-  padding: 2vw;
-  border-radius: 10px;
-}
-.main h3 {
-  color: grey;
-  font-size: 1vw;
-  padding-top: 0.5vw;
-}
 .contorno {
   margin-right: 2vw;
 }

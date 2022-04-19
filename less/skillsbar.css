@@ -1,6 +1,16 @@
 container {
   border-radius: 5px;
 }
+.main {
+  background-color: #e7e7e7;
+  padding: 2vw;
+  border-radius: 10px;
+}
+.main h3 {
+  color: grey;
+  font-size: 20PX;
+  padding-top: 0.5vw;
+}
 .skills {
   text-align: right;
   padding-top: 1px;
@@ -11,27 +21,27 @@ container {
   font-size: 10px;
 }
 .html {
-  background-color: rgb(0, 119, 255);;
+  background-color: #003cff;
   animation: fillhtml 2s forwards;
 }
 .css {
-  background-color: rgb(0, 119, 255);
+  background-color: #003cff;
   animation: fillcss 2s forwards;
 }
 .bootstrap {
-  background-color:rgb(0, 119, 255);
+  background-color: #003cff;
   animation: fillbootstrap 2s forwards;
 }
 .java {
-  background-color: rgb(0, 119, 255);
+  background-color: #003cff;
   animation: filljava 2s forwards;
 }
 .javascript {
-  background-color: rgb(0, 119, 255);
+  background-color: #003cff;
   animation: filljavascript 2s forwards;
 }
 .mongodb {
-  background-color: rgb(0, 119, 255);
+  background-color: #003cff;
   animation: fillmongodb 2s forwards;
 }
 .sql {
