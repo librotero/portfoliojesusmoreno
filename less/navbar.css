@@ -60,6 +60,9 @@ nav ul li a {
   font-size: 14px;
   text-decoration: none;
 }
+body.dark nav ul li a {
+  color: #ffffff;
+}
 .select {
   background: #359EF9;
   padding: 10px 30px;

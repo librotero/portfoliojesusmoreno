@@ -1,0 +1,8 @@
+body {
+  background: white;
+  font-family: roboto;
+  transition: 3s ease all;
+}
+body.dark {
+  background: #010131;
+}

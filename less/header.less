@@ -10,6 +10,9 @@
 .centrado h1{
     font-size: 100px;
     color: rgb(0, 60, 255);
+    body.dark &{
+        color: rgb(255, 255, 255);
+    }
 }
 .parrallax{
  width: 100%;
@@ -18,6 +21,12 @@
  display: flex;
 background-image: url("https://img.freepik.com/foto-gratis/retrato-tipo-rizado-sonriente-que-sostiene-tarjeta-credito-telefono-inteligente-usando-aplicacion-hacer-compra-linea-pie-sobre-fondo-blanco_176420-47923.jpg?t=st=1650219868~exp=1650220468~hmac=6ad548dbb899ab13729cc83c02c819e66ed355b4866b5549824e67ccb448cfba&w=740");
 background-attachment: fixed;
+transition: 1s;
+body.dark &{
+    background-image: url(https://www.yoh.com/hubfs/Thoughtful%20young%20programmer%20coding%20on%20computer%20in%20the%20evening%20at%20home.jpeg);
+    background-attachment: fixed;
+    transition: 1s;
+}
 }
 
 /*button init*/
