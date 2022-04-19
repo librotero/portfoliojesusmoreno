@@ -39,3 +39,16 @@ body.dark .parrallax {
     color: #ffffff;
   }
 }
+.scrollarrow ion-icon {
+  font-size: 80px;
+  color: navy;
+  cursor: pointer;
+  animation: bounce;
+  animation-duration: 2s;
+  --animate-repeat: 2;
+}
+.scrollarrow ion-icon:hover {
+  font-size: 80px;
+  color: #3434f3;
+  cursor: pointer;
+}
