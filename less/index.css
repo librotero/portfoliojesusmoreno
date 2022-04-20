@@ -547,3 +547,15 @@ p {
   background: linear-gradient(to bottom, #26beef, #65e6ff);
   transition: 2s;
 }
+.lottie h1 {
+  color: black;
+  font-size: 50px;
+}
+.success {
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+}
