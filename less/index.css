@@ -35,6 +35,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 .container__nav {
   position: relative;
@@ -76,7 +77,6 @@ body.dark nav ul li a:hover {
   border-radius: 20px;
 }
 .nav_mod {
-  background-color: rgba(255, 255, 255, 0);
   height: 70px;
 }
 .nav_mod nav ul li a {
@@ -94,6 +94,16 @@ body.dark .nav_mod nav ul li a {
 }
 body.dark .nav_mod nav ul li a:hover {
   color: #ffffff;
+}
+.nav_mod .logo p {
+  color: #f36b39;
+  font-size: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse;
+  animation-duration: 2s;
 }
 .btn__menu {
   width: 50px;
@@ -216,11 +226,9 @@ body.dark .parrallax {
 #galeria img {
   width: 100%;
 }
-#galeria h1 {
-  align-items: left;
-}
 .column img {
   margin-top: 1vw;
+  cursor: pointer;
 }
 @media (max-width: 660px) {
   #galeria .column {
@@ -240,8 +248,39 @@ body.dark .parrallax {
   }
 }
 #galeria img:hover {
-  box-shadow: 1vw 1vw 2vw rgba(0, 47, 255, 0.37);
-  padding: 1vw;
+  animation: headShake;
+  animation-duration: 2s;
+}
+img:hover {
+  margin-top: 1vw;
+  cursor: pointer;
+  background-color: red;
+}
+/*codigo para desvanecer la imagen sobre el texto*/
+.div-imagen {
+  display: inline-block;
+  position: relative;
+}
+.div-imagen > div {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: -1;
+  padding: 10px;
+  margin: 0;
+}
+.div-imagen > div p a {
+  font-size: 40px;
+  text-decoration: none;
+  color: grey;
+}
+.desvanecer:hover {
+  opacity: 0.1;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 .espaciomin {
   padding: 3vw;
@@ -253,12 +292,12 @@ container {
   border-radius: 5px;
 }
 .main {
-  border: solid 1px #26beef;
+  border-bottom: solid 1px #b4b7b5;
+  border-top: solid 1px #b4b7b5;
   padding: 2vw;
-  border-radius: 10px;
 }
 .main p {
-  color: grey;
+  color: #686b69;
   padding-bottom: 0.2vw;
   padding-top: 0.2vw;
 }
@@ -270,31 +309,31 @@ container {
   font-size: 10px;
 }
 .html {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillhtml 2s forwards;
 }
 .css {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillcss 2s forwards;
 }
 .bootstrap {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillbootstrap 2s forwards;
 }
 .java {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: filljava 2s forwards;
 }
 .javascript {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: filljavascript 2s forwards;
 }
 .mongodb {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillmongodb 2s forwards;
 }
 .sql {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillsql 2s forwards;
 }
 @keyframes fillhtml {
@@ -468,6 +507,9 @@ h3 {
   color: #ffffff;
   font-size: 40px;
   padding-bottom: 20px;
+}
+p {
+  color: #2f302f;
 }
 #btn-start button {
   background: #26beef;

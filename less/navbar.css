@@ -35,6 +35,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
 .container__nav {
   position: relative;
@@ -76,7 +77,6 @@ body.dark nav ul li a:hover {
   border-radius: 20px;
 }
 .nav_mod {
-  background-color: rgba(255, 255, 255, 0);
   height: 70px;
 }
 .nav_mod nav ul li a {
@@ -94,6 +94,16 @@ body.dark .nav_mod nav ul li a {
 }
 body.dark .nav_mod nav ul li a:hover {
   color: #ffffff;
+}
+.nav_mod .logo p {
+  color: #f36b39;
+  font-size: 25px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pulse;
+  animation-duration: 2s;
 }
 .btn__menu {
   width: 50px;

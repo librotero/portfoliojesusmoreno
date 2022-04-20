@@ -2,12 +2,12 @@ container {
   border-radius: 5px;
 }
 .main {
-  border: solid 1px #26beef;
+  border-bottom: solid 1px #b4b7b5;
+  border-top: solid 1px #b4b7b5;
   padding: 2vw;
-  border-radius: 10px;
 }
 .main p {
-  color: grey;
+  color: #686b69;
   padding-bottom: 0.2vw;
   padding-top: 0.2vw;
 }
@@ -19,31 +19,31 @@ container {
   font-size: 10px;
 }
 .html {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillhtml 2s forwards;
 }
 .css {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillcss 2s forwards;
 }
 .bootstrap {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillbootstrap 2s forwards;
 }
 .java {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: filljava 2s forwards;
 }
 .javascript {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: filljavascript 2s forwards;
 }
 .mongodb {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillmongodb 2s forwards;
 }
 .sql {
-  background-color: #26beef;
+  background-color: #686b69;
   animation: fillsql 2s forwards;
 }
 @keyframes fillhtml {
