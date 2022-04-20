@@ -1,22 +1,17 @@
 .centrado {
   position: absolute;
-  top: 50%;
+  bottom: 0;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.centrado h1 {
-  font-size: 100px;
-  color: #003cff;
-}
-body.dark .centrado h1 {
-  color: #ffffff;
+  width: 1200px;
 }
 .parrallax {
   width: 100%;
   height: 900px;
   background-size: cover;
   display: flex;
-  background-image: url("https://img.freepik.com/foto-gratis/retrato-tipo-rizado-sonriente-que-sostiene-tarjeta-credito-telefono-inteligente-usando-aplicacion-hacer-compra-linea-pie-sobre-fondo-blanco_176420-47923.jpg?t=st=1650219868~exp=1650220468~hmac=6ad548dbb899ab13729cc83c02c819e66ed355b4866b5549824e67ccb448cfba&w=740");
+  background-image: url("https://img.freepik.com/foto-gratis/programador-trabajo_1098-18094.jpg?w=740");
   background-attachment: fixed;
   transition: 1s;
 }

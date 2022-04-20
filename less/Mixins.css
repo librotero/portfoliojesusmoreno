@@ -1,0 +1,12 @@
+.btn-config-general {
+  background: #31c3f5;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+}
+.btn-config-general a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
