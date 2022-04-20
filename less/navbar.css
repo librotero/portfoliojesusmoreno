@@ -76,7 +76,7 @@ body.dark nav ul li a:hover {
   border-radius: 20px;
 }
 .nav_mod {
-  background-color: rgba(255, 255, 255, 0.856);
+  background-color: rgba(255, 255, 255, 0);
   height: 70px;
 }
 .nav_mod nav ul li a {
