@@ -1,5 +1,5 @@
 .btn-config-general {
-  background: #31c3f5;
+  background: #26beef;
   color: white;
   cursor: pointer;
   border: none;
@@ -9,4 +9,8 @@
   text-decoration: none;
   color: white;
   font-size: 25px;
+}
+.btn-config-general:hover {
+  background: linear-gradient(to bottom, #26beef, #65e6ff);
+  transition: 2s;
 }

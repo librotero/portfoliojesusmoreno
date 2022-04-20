@@ -2,50 +2,48 @@ container {
   border-radius: 5px;
 }
 .main {
-  background-color: #e7e7e7;
+  border: solid 1px #26beef;
   padding: 2vw;
   border-radius: 10px;
 }
-.main h3 {
+.main p {
   color: grey;
-  font-size: 20PX;
-  padding-top: 0.5vw;
+  padding-bottom: 0.2vw;
+  padding-top: 0.2vw;
 }
 .skills {
   text-align: right;
-  padding-top: 1px;
-  padding-bottom: 1px;
   padding-right: 10px;
   color: white;
   border-radius: 2.5px;
   font-size: 10px;
 }
 .html {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: fillhtml 2s forwards;
 }
 .css {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: fillcss 2s forwards;
 }
 .bootstrap {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: fillbootstrap 2s forwards;
 }
 .java {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: filljava 2s forwards;
 }
 .javascript {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: filljavascript 2s forwards;
 }
 .mongodb {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: fillmongodb 2s forwards;
 }
 .sql {
-  background-color: #003cff;
+  background-color: #26beef;
   animation: fillsql 2s forwards;
 }
 @keyframes fillhtml {

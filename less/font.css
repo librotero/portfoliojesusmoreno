@@ -2,7 +2,13 @@ h1 {
   color: #fff;
   font-size: 100px;
 }
+h2 {
+  color: #26beef;
+  font-size: 70px;
+  padding-bottom: 20px;
+}
 h3 {
   color: #ffffff;
   font-size: 40px;
+  padding-bottom: 20px;
 }
