@@ -242,7 +242,7 @@ body.dark .parrallax {
     padding-top: 15vw;
   }
   #galeria .row {
-    display: flex;
+    display: inline-block;
     padding-top: 5vw;
     flex-wrap: wrap;
   }
@@ -260,6 +260,7 @@ img:hover {
 .div-imagen {
   display: inline-block;
   position: relative;
+  padding-top: 1vw;
 }
 .div-imagen > div {
   position: absolute;
