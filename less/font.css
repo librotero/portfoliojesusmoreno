@@ -15,3 +15,14 @@ h3 {
 p {
   color: #2f302f;
 }
+@media (max-width: 720px) {
+  h1 {
+    color: #fff;
+    font-size: 4vw;
+  }
+  h3 {
+    color: #ffffff;
+    font-size: 4vw;
+    padding-bottom: 20px;
+  }
+}
