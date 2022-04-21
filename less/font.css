@@ -40,4 +40,9 @@ body.dark h5 {
     font-size: 4vw;
     padding-bottom: 20px;
   }
+  h2 {
+    color: #26beef;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
 }
