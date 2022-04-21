@@ -126,6 +126,12 @@ body.dark .nav_mod nav ul li a:hover {
   transition: background 2s;
   display: none;
   color: white;
+  animation: bounce;
+  animation-duration: 2s;
+}
+body.dark .btn__menu {
+  color: white;
+  transition: 2s;
 }
 .btn__menu:hover {
   background: #1a1a1aaf;

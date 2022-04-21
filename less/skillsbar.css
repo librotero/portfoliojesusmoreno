@@ -5,6 +5,7 @@ container {
   border-bottom: solid 1px #b4b7b5;
   border-top: solid 1px #b4b7b5;
   padding: 2vw;
+  padding-bottom: 50px;
 }
 .main p {
   color: #686b69;

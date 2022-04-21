@@ -1,11 +1,15 @@
-#footer {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 10vw;
-  padding-bottom: 4vw;
+footer {
+  background: rgba(255, 255, 255, 0);
 }
-#footer .item {
-  padding-right: 5vw;
+footer.dark {
+  background: #010131;
+}
+.footer a {
+  color: #292727;
+  margin: 15px;
+  font-size: 25px;
+}
+body.dark .footer a {
+  color: #ffffff;
+  transition: 2s;
 }

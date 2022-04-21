@@ -1,7 +1,7 @@
 //::::::::::::: VARIABLES ::::::::::::::::::::://
 @color-h1-title-light: #fff;
 @color-h2-title-aboutme: #26beef;
-@color-h3-light: #ffffff;
+@color-h3-light: hsl(0, 0%, 100%);
 @color-text-general-info: #2f302f;
 
 //::::::::::::: VARIABLES ::::::::::::::::::::://
@@ -20,8 +20,25 @@ h3{
     font-size: 40px;
     padding-bottom: 20px;
 }
+h6{
+    color: @color-text-general-info;
+    body.dark &{
+        color: rgb(255, 72, 0);
+        transition: 2s;
+    }
+}
 p{
     color: @color-text-general-info;
+    body.dark &{
+        color: white;
+        transition: 2s;
+    }
+}
+h5{
+    body.dark &{
+        color: white;
+        transition: 2s;
+    }
 }
 @media (max-width:720px) {
     h1{

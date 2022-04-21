@@ -1,12 +1,15 @@
-#footer{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top:10vw;
-    padding-bottom:4vw;
-
+footer{
+    background: rgba(255, 255, 255, 0);
+    &.dark{
+        background:rgb(1, 1, 49);
+    }
 }
-#footer .item{
-padding-right:5vw;
+.footer a{
+    color: rgb(41, 39, 39);
+    margin:15px;
+    font-size: 25px;
+    body.dark &{
+        color: rgb(255, 255, 255);
+        transition: 2s;
+    }
 }
