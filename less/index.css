@@ -27,13 +27,8 @@ header {
   justify-content: space-between;
   margin: auto;
 }
-.logo p {
-  color: #14eb00;
-  font-size: 45px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logo img {
+  width: 80px;
   transition: 1s;
 }
 .container__nav {
@@ -77,12 +72,13 @@ body.dark nav ul li a:hover {
 }
 /*aca se colocan las modificaciones de cuando la pagina avanza 20px en el scroll*/
 .nav_mod {
-  height: 70px;
+  height: 100px;
+  width: 100%;
   background-color: white;
-  box-shadow: 1px #333232;
 }
 body.dark .nav_mod {
   background-color: #010131;
+  transition: 1s;
 }
 .nav_mod .btn__menu {
   animation: bounce;
@@ -108,13 +104,9 @@ body.dark .nav_mod nav ul li a {
 body.dark .nav_mod nav ul li a:hover {
   color: #ffffff;
 }
-.nav_mod .logo p {
-  color: #f36b39;
-  font-size: 25px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav_mod .logo img {
+  padding-top: 20px;
+  width: 60px;
   animation: pulse;
   animation-duration: 2s;
 }
@@ -151,11 +143,14 @@ body.dark .btn__menu {
   }
   nav {
     height: 100%;
-    background: #00ccff;
+    background: #28ff0d;
     position: fixed;
     top: 0;
     right: -210px;
     transition: all 300ms;
+  }
+  body.dark nav {
+    background-color: #00c3ff;
   }
   .move_nav {
     right: 0px;
@@ -173,19 +168,6 @@ body.dark .btn__menu {
     transform: scale(0);
     animation: none;
   }
-  .logo p {
-    color: #26beef;
-    font-size: 5vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: pulse;
-    animation-duration: 2s;
-  }
-  body.dark .logo p {
-    color: #00ff6a;
-  }
   nav ul li a {
     color: #3b3b3b;
     font-size: 14px;
@@ -194,38 +176,70 @@ body.dark .btn__menu {
   body.dark nav ul li a {
     color: #4d4d4d;
   }
+  nav ul li a:hover {
+    color: #ffffff;
+  }
+  body.dark nav ul li a:hover {
+    color: #4d4d4d;
+  }
 }
 .centrado {
   position: absolute;
   bottom: 0;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .parrallax {
   width: 100%;
-  height: 900px;
+  height: 850px;
   background-size: cover;
   display: flex;
-  background-image: url("https://img.freepik.com/foto-gratis/programador-trabajo_1098-18094.jpg?w=740");
+  background-image: url("https://www.datocms-assets.com/14946/1627654221-webp-net-resizeimage-5-610x407-edited.png?auto=format&w=610");
   background-attachment: fixed;
+  transition: 1s;
 }
 body.dark .parrallax {
-  background-image: url("https://www.bolsamania.com/seriesadictos/wp-content/uploads/2021/01/photo-1579225663317-c0251b4369bc-690x1035.jpg");
+  background-image: url("https://www.geteducated.com/wp-content/uploads/2021/12/iStock-1312646700-1140x400.jpg");
   background-attachment: fixed;
+  transition: 1s;
+}
+@media screen and (max-width: 720px) {
+  body.dark .parrallax {
+    background-image: url("https://www.technotification.com/wp-content/uploads/2018/06/hacker-developer-and-programmer.jpg");
+    background-attachment: fixed;
+    transition: 1s;
+  }
 }
 /*button init*/
+.arrow ion-icon {
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  bottom: 0;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*button init*/
 @media screen and (max-width: 720px) {
   .parrallax {
     width: 100%;
     height: 900px;
-    background-image: url("https://www.kitemedia.com/wp-content/uploads/2019/11/dusty-pay-per-click-manager.jpg");
+    background-image: url("https://miro.medium.com/max/1400/0*203ohsl3qkZQJzTS");
     background-attachment: fixed;
+    transition: 1s;
   }
   .centrado h1 {
     font-size: 80px;
     color: #ffffff;
+  }
+  .centrado {
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 .scrollarrow ion-icon {
@@ -247,7 +261,7 @@ body.dark .parrallax {
 }
 /*galeria*/
 #galeria .container {
-  padding-top: 5vw;
+  padding-top: 7vw;
 }
 #galeria * {
   box-sizing: border-box;
@@ -270,13 +284,13 @@ body.dark .parrallax {
   margin-top: 1vw;
   cursor: pointer;
 }
-@media (max-width: 660px) {
+@media (max-width: 760px) {
   #galeria {
     padding-bottom: 35px;
   }
   #galeria .column {
     flex: 100%;
-    padding: 1vw;
+    padding: 7vw;
   }
   #section1 {
     height: 150vw;
@@ -290,14 +304,8 @@ body.dark .parrallax {
     flex-wrap: wrap;
   }
 }
-#galeria img:hover {
-  animation: headShake;
-  animation-duration: 2s;
-}
 img:hover {
-  margin-top: 1vw;
   cursor: pointer;
-  background-color: red;
 }
 /*codigo para desvanecer la imagen sobre el texto*/
 .div-imagen {
@@ -336,50 +344,83 @@ container {
   border-radius: 5px;
 }
 .main {
-  border-bottom: solid 1px #b4b7b5;
-  border-top: solid 1px #b4b7b5;
-  padding: 2vw;
+  border: solid 1px #00c3ff;
+  padding: 50px;
   padding-bottom: 50px;
+  border-radius: 15px;
+}
+body.dark .main {
+  transition: 2s;
+  border: solid 1px #28ff0d;
 }
 .main p {
-  color: #686b69;
+  color: grey;
   padding-bottom: 0.2vw;
   padding-top: 0.2vw;
 }
 .skills {
   text-align: right;
   padding-right: 10px;
-  color: white;
+  color: #000000;
   border-radius: 2.5px;
   font-size: 10px;
+  margin-bottom: 1vw;
 }
 .html {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: fillhtml 2s forwards;
 }
+body.dark .html {
+  background-color: #28ff0d;
+  transition: 2s;
+}
 .css {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: fillcss 2s forwards;
 }
+body.dark .css {
+  background-color: #28ff0d;
+  transition: 2s;
+}
 .bootstrap {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: fillbootstrap 2s forwards;
 }
+body.dark .bootstrap {
+  background-color: #28ff0d;
+  transition: 2s;
+}
 .java {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: filljava 2s forwards;
 }
+body.dark .java {
+  background-color: #28ff0d;
+  transition: 2s;
+}
 .javascript {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: filljavascript 2s forwards;
 }
+body.dark .javascript {
+  background-color: #28ff0d;
+  transition: 2s;
+}
 .mongodb {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: fillmongodb 2s forwards;
 }
+body.dark .mongodb {
+  background-color: #28ff0d;
+  transition: 2s;
+}
 .sql {
-  background-color: #686b69;
+  background-color: #00c3ff;
   animation: fillsql 2s forwards;
+}
+body.dark .sql {
+  background-color: #28ff0d;
+  transition: 2s;
 }
 @keyframes fillhtml {
   0% {
@@ -430,7 +471,7 @@ container {
   }
 }
 #about .container {
-  padding-top: 5vw;
+  padding-top: 7vw;
 }
 .contorno {
   margin-right: 2vw;
@@ -438,6 +479,9 @@ container {
 @media screen and (max-width: 760px) {
   #about .container {
     padding-top: 15vw;
+  }
+  .espacio {
+    padding-top: 8vw;
   }
 }
 footer {
@@ -454,6 +498,15 @@ footer.dark {
 body.dark .footer a {
   color: #ffffff;
   transition: 2s;
+}
+.footer a:hover {
+  color: #28ff0d;
+  margin: 15px;
+  font-size: 25px;
+  transition: 2s;
+}
+body.dark .footer a:hover {
+  color: #ff1abf;
 }
 .client-item {
   display: inline-block;
@@ -548,12 +601,16 @@ h1 {
   font-size: 100px;
 }
 h2 {
-  color: #26beef;
+  color: #00c3ff;
   font-size: 70px;
   padding-bottom: 20px;
 }
+body.dark h2 {
+  color: #28ff0d;
+  transition: 2s;
+}
 h3 {
-  color: hsl(0, 0%, 100%);
+  color: white;
   font-size: 40px;
   padding-bottom: 20px;
 }
@@ -561,7 +618,7 @@ h6 {
   color: #2f302f;
 }
 body.dark h6 {
-  color: #ff4800;
+  color: #28ff0d;
   transition: 2s;
 }
 p {
@@ -575,18 +632,22 @@ body.dark h5 {
   color: white;
   transition: 2s;
 }
+body.dark h4 {
+  color: white;
+  transition: 2s;
+}
 @media (max-width: 720px) {
   h1 {
     color: #fff;
-    font-size: 4vw;
+    font-size: 150px;
   }
   h3 {
-    color: hsl(0, 0%, 100%);
-    font-size: 4vw;
+    color: white;
+    font-size: 5vw;
     padding-bottom: 20px;
   }
   h2 {
-    color: #26beef;
+    color: #00c3ff;
     font-size: 40px;
     padding-bottom: 20px;
   }

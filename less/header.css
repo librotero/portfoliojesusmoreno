@@ -1,34 +1,60 @@
 .centrado {
   position: absolute;
   bottom: 0;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .parrallax {
   width: 100%;
-  height: 900px;
+  height: 850px;
   background-size: cover;
   display: flex;
-  background-image: url("https://img.freepik.com/foto-gratis/programador-trabajo_1098-18094.jpg?w=740");
+  background-image: url("https://www.datocms-assets.com/14946/1627654221-webp-net-resizeimage-5-610x407-edited.png?auto=format&w=610");
   background-attachment: fixed;
+  transition: 1s;
 }
 body.dark .parrallax {
-  background-image: url("https://www.bolsamania.com/seriesadictos/wp-content/uploads/2021/01/photo-1579225663317-c0251b4369bc-690x1035.jpg");
+  background-image: url("https://www.geteducated.com/wp-content/uploads/2021/12/iStock-1312646700-1140x400.jpg");
   background-attachment: fixed;
+  transition: 1s;
+}
+@media screen and (max-width: 720px) {
+  body.dark .parrallax {
+    background-image: url("https://www.technotification.com/wp-content/uploads/2018/06/hacker-developer-and-programmer.jpg");
+    background-attachment: fixed;
+    transition: 1s;
+  }
 }
 /*button init*/
+.arrow ion-icon {
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  bottom: 0;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*button init*/
 @media screen and (max-width: 720px) {
   .parrallax {
     width: 100%;
     height: 900px;
-    background-image: url("https://www.kitemedia.com/wp-content/uploads/2019/11/dusty-pay-per-click-manager.jpg");
+    background-image: url("https://miro.medium.com/max/1400/0*203ohsl3qkZQJzTS");
     background-attachment: fixed;
+    transition: 1s;
   }
   .centrado h1 {
     font-size: 80px;
     color: #ffffff;
+  }
+  .centrado {
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 .scrollarrow ion-icon {

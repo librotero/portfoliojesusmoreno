@@ -27,13 +27,8 @@ header {
   justify-content: space-between;
   margin: auto;
 }
-.logo p {
-  color: #14eb00;
-  font-size: 45px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logo img {
+  width: 80px;
   transition: 1s;
 }
 .container__nav {
@@ -77,12 +72,13 @@ body.dark nav ul li a:hover {
 }
 /*aca se colocan las modificaciones de cuando la pagina avanza 20px en el scroll*/
 .nav_mod {
-  height: 70px;
+  height: 100px;
+  width: 100%;
   background-color: white;
-  box-shadow: 1px #333232;
 }
 body.dark .nav_mod {
   background-color: #010131;
+  transition: 1s;
 }
 .nav_mod .btn__menu {
   animation: bounce;
@@ -108,13 +104,9 @@ body.dark .nav_mod nav ul li a {
 body.dark .nav_mod nav ul li a:hover {
   color: #ffffff;
 }
-.nav_mod .logo p {
-  color: #f36b39;
-  font-size: 25px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav_mod .logo img {
+  padding-top: 20px;
+  width: 60px;
   animation: pulse;
   animation-duration: 2s;
 }
@@ -151,11 +143,14 @@ body.dark .btn__menu {
   }
   nav {
     height: 100%;
-    background: #00ccff;
+    background: #28ff0d;
     position: fixed;
     top: 0;
     right: -210px;
     transition: all 300ms;
+  }
+  body.dark nav {
+    background-color: #00c3ff;
   }
   .move_nav {
     right: 0px;
@@ -173,25 +168,18 @@ body.dark .btn__menu {
     transform: scale(0);
     animation: none;
   }
-  .logo p {
-    color: #26beef;
-    font-size: 5vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: pulse;
-    animation-duration: 2s;
-  }
-  body.dark .logo p {
-    color: #00ff6a;
-  }
   nav ul li a {
     color: #3b3b3b;
     font-size: 14px;
     text-decoration: none;
   }
   body.dark nav ul li a {
+    color: #4d4d4d;
+  }
+  nav ul li a:hover {
+    color: #ffffff;
+  }
+  body.dark nav ul li a:hover {
     color: #4d4d4d;
   }
 }

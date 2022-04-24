@@ -1,6 +1,6 @@
 /*galeria*/
 #galeria .container {
-  padding-top: 5vw;
+  padding-top: 7vw;
 }
 #galeria * {
   box-sizing: border-box;
@@ -23,13 +23,13 @@
   margin-top: 1vw;
   cursor: pointer;
 }
-@media (max-width: 660px) {
+@media (max-width: 760px) {
   #galeria {
     padding-bottom: 35px;
   }
   #galeria .column {
     flex: 100%;
-    padding: 1vw;
+    padding: 7vw;
   }
   #section1 {
     height: 150vw;
@@ -43,14 +43,8 @@
     flex-wrap: wrap;
   }
 }
-#galeria img:hover {
-  animation: headShake;
-  animation-duration: 2s;
-}
 img:hover {
-  margin-top: 1vw;
   cursor: pointer;
-  background-color: red;
 }
 /*codigo para desvanecer la imagen sobre el texto*/
 .div-imagen {

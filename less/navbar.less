@@ -35,13 +35,8 @@ header{
     margin: auto;
 }
 
-.logo p{
-    color: #14eb00;
-    font-size:45px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo img{
+    width: 80px;
     transition: 1s;
 }
 
@@ -91,12 +86,13 @@ nav ul li a:hover{
 }
 /*aca se colocan las modificaciones de cuando la pagina avanza 20px en el scroll*/
 .nav_mod{
- height: 70px;
+ height: 100px;
+ width: 100%;
  background-color: white;
- box-shadow: 1px rgb(51, 50, 50);
 
  body.dark &{
     background-color:rgb(1, 1, 49);
+    transition: 1s;
 }
 
  .btn__menu{
@@ -126,13 +122,9 @@ nav ul li a:hover{
         color: rgb(255, 255, 255);
     }
 } 
-.logo p{
-    color: #f36b39;
-    font-size:25px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo img{
+    padding-top: 20px;
+    width:60px;
     animation: pulse;
     animation-duration: 2s
 }
@@ -178,11 +170,14 @@ nav ul li a:hover{
 
     nav{
         height: 100%;
-        background: #00ccff;
+        background: #28ff0d;
         position: fixed;
         top: 0;
         right: -210px;
         transition: all 300ms;
+        body.dark &{
+            background-color: #00c3ff;
+        }
     }
 
     .move_nav{
@@ -204,23 +199,17 @@ nav ul li a:hover{
         transform: scale(0);
         animation: none;
     }
-    .logo p{
-        color: #26beef;
-        font-size:5vw;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: pulse;
-        animation-duration: 2s;
-        body.dark &{
-            color: rgb(0, 255, 106);
-        }
-    }
+   
     nav ul li a{
         color: #3b3b3b;
         font-size: 14px;
         text-decoration: none;
+        body.dark &{
+            color: rgb(77, 77, 77);
+        }
+    }
+    nav ul li a:hover{
+        color: #ffffff;
         body.dark &{
             color: rgb(77, 77, 77);
         }

@@ -1,7 +1,7 @@
 //::::::::::::: VARIABLES ::::::::::::::::::::://
 @color-h1-title-light: #fff;
-@color-h2-title-aboutme: #26beef;
-@color-h3-light: hsl(0, 0%, 100%);
+@color-h2-title-aboutme: #00c3ff;
+@color-h3-light: white;
 @color-text-general-info: #2f302f;
 
 //::::::::::::: VARIABLES ::::::::::::::::::::://
@@ -13,7 +13,11 @@ h1{
 h2{
     color: @color-h2-title-aboutme;
     font-size: 70px;
-    padding-bottom:20px
+    padding-bottom:20px;
+    body.dark &{
+        color: #28ff0d;
+        transition: 2s;
+    }
 }
 h3{
     color: @color-h3-light;
@@ -23,7 +27,7 @@ h3{
 h6{
     color: @color-text-general-info;
     body.dark &{
-        color: rgb(255, 72, 0);
+        color: #28ff0d;
         transition: 2s;
     }
 }
@@ -40,15 +44,21 @@ h5{
         transition: 2s;
     }
 }
+h4{
+    body.dark &{
+        color: white;
+        transition: 2s;
+    }
+}
 @media (max-width:720px) {
     h1{
         color: @color-h1-title-light;
-        font-size: 4vw;
+        font-size: 150px;
         
     }
     h3{
         color: @color-h3-light;
-        font-size: 4vw;
+        font-size: 5vw;
         padding-bottom: 20px;
     }
     h2{
