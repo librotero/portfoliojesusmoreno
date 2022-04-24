@@ -28,7 +28,7 @@ header {
   margin: auto;
 }
 .logo p {
-  color: #f36b39;
+  color: #14eb00;
   font-size: 45px;
   height: 100%;
   display: flex;
@@ -78,11 +78,16 @@ body.dark nav ul li a:hover {
 /*aca se colocan las modificaciones de cuando la pagina avanza 20px en el scroll*/
 .nav_mod {
   height: 70px;
+  background-color: white;
+  box-shadow: 1px #333232;
+}
+body.dark .nav_mod {
+  background-color: #010131;
 }
 .nav_mod .btn__menu {
   animation: bounce;
   animation-duration: 2s;
-  color: #202020;
+  color: #000000;
 }
 .nav_mod .btn__menu:hover {
   background: #1a1a1aaf;
@@ -169,59 +174,7 @@ body.dark .btn__menu {
     animation: none;
   }
   .logo p {
-    color: #f36b39;
-    font-size: 25vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: pulse;
-    animation-duration: 2s;
-  }
-  nav ul li a {
-    color: #3b3b3b;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  body.dark nav ul li a {
-    color: #4d4d4d;
-  }
-}
-@media screen and (max-width: 390px) {
-  .container__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .btn__menu {
-    display: flex;
-  }
-  nav {
-    height: 100%;
-    background: #00ccff;
-    position: fixed;
-    top: 0;
-    right: -180px;
-    transition: all 300ms;
-  }
-  .move_nav {
-    right: 0px;
-  }
-  nav ul {
-    flex-direction: column;
-  }
-  nav ul button {
-    align-items: center;
-  }
-  nav ul li {
-    margin: 20px 0px;
-  }
-  .container__vector img {
-    transform: scale(0);
-    animation: none;
-  }
-  .logo p {
-    color: #f36b39;
+    color: #26beef;
     font-size: 5vw;
     height: 100%;
     display: flex;
@@ -229,6 +182,9 @@ body.dark .btn__menu {
     align-items: center;
     animation: pulse;
     animation-duration: 2s;
+  }
+  body.dark .logo p {
+    color: #00ff6a;
   }
   nav ul li a {
     color: #3b3b3b;
