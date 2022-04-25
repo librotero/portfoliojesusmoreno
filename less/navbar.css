@@ -28,6 +28,7 @@ header {
   margin: auto;
 }
 .logo img {
+  padding-top: 2px;
   width: 80px;
   transition: 1s;
 }
