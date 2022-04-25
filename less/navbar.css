@@ -28,8 +28,8 @@ header {
   margin: auto;
 }
 .logo img {
-  padding-top: 2px;
-  width: 80px;
+  padding-top: 20px;
+  width: 60px;
   transition: 1s;
 }
 .container__nav {

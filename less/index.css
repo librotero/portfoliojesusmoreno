@@ -28,7 +28,8 @@ header {
   margin: auto;
 }
 .logo img {
-  width: 80px;
+  padding-top: 20px;
+  width: 60px;
   transition: 1s;
 }
 .container__nav {
@@ -285,6 +286,9 @@ body.dark .parrallax {
   cursor: pointer;
 }
 @media (max-width: 760px) {
+  #galeria .container {
+    padding-top: 40px;
+  }
   #galeria {
     padding-bottom: 35px;
   }
@@ -305,6 +309,7 @@ body.dark .parrallax {
   }
 }
 img:hover {
+  margin-top: 1vw;
   cursor: pointer;
 }
 /*codigo para desvanecer la imagen sobre el texto*/
@@ -478,7 +483,7 @@ body.dark .sql {
 }
 @media screen and (max-width: 760px) {
   #about .container {
-    padding-top: 15vw;
+    padding-top: 100px;
   }
   .espacio {
     padding-top: 8vw;
