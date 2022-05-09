@@ -10,7 +10,7 @@
   height: 850px;
   background-size: cover;
   display: flex;
-  background-image: url("https://www.datocms-assets.com/14946/1627654221-webp-net-resizeimage-5-610x407-edited.png?auto=format&w=610");
+  background-image: url("img/inicio.jpg");
   background-attachment: fixed;
   transition: 1s;
 }
