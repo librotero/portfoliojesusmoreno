@@ -196,18 +196,18 @@ body.dark .btn__menu {
   height: 850px;
   background-size: cover;
   display: flex;
-  background-image: url("https://www.datocms-assets.com/14946/1627654221-webp-net-resizeimage-5-610x407-edited.png?auto=format&w=610");
+  background-image: url("../img/inicio.jpg");
   background-attachment: fixed;
   transition: 1s;
 }
 body.dark .parrallax {
-  background-image: url("https://www.geteducated.com/wp-content/uploads/2021/12/iStock-1312646700-1140x400.jpg");
+  background-image: url("img/inicio.jpg");
   background-attachment: fixed;
   transition: 1s;
 }
 @media screen and (max-width: 720px) {
   body.dark .parrallax {
-    background-image: url("https://www.technotification.com/wp-content/uploads/2018/06/hacker-developer-and-programmer.jpg");
+    background-image: url("../img/iniciomobile.jpg");
     background-attachment: fixed;
     transition: 1s;
   }
@@ -227,7 +227,7 @@ body.dark .parrallax {
   .parrallax {
     width: 100%;
     height: 900px;
-    background-image: url("https://miro.medium.com/max/1400/0*203ohsl3qkZQJzTS");
+    background-image: url("../img/iniciomobile.jpg");
     background-attachment: fixed;
     transition: 1s;
   }
@@ -287,7 +287,7 @@ body.dark .parrallax {
 }
 @media (max-width: 760px) {
   #galeria .container {
-    padding-top: 150px;
+    padding-top: 80px;
   }
   #galeria {
     padding-bottom: 35px;
