@@ -12,18 +12,18 @@
   display: flex;
   background-image: url("../img/inicio.jpg");
   background-attachment: fixed;
-  transition: 1s;
+  transition: 2s;
 }
 body.dark .parrallax {
-  background-image: url("img/inicio.jpg");
+  background-image: url("../img/image.png");
   background-attachment: fixed;
-  transition: 1s;
+  transition: 2s;
 }
 @media screen and (max-width: 720px) {
   body.dark .parrallax {
-    background-image: url("../img/iniciomobile.jpg");
+    background-image: url("../img/imegedark.png");
     background-attachment: fixed;
-    transition: 1s;
+    transition: 2s;
   }
 }
 /*button init*/

@@ -198,18 +198,18 @@ body.dark .btn__menu {
   display: flex;
   background-image: url("../img/inicio.jpg");
   background-attachment: fixed;
-  transition: 1s;
+  transition: 2s;
 }
 body.dark .parrallax {
-  background-image: url("img/inicio.jpg");
+  background-image: url("../img/image.png");
   background-attachment: fixed;
-  transition: 1s;
+  transition: 2s;
 }
 @media screen and (max-width: 720px) {
   body.dark .parrallax {
-    background-image: url("../img/iniciomobile.jpg");
+    background-image: url("../img/imegedark.png");
     background-attachment: fixed;
-    transition: 1s;
+    transition: 2s;
   }
 }
 /*button init*/
@@ -262,7 +262,7 @@ body.dark .parrallax {
 }
 /*galeria*/
 #galeria .container {
-  padding-top: 7vw;
+  padding-top: 50px;
 }
 #galeria * {
   box-sizing: border-box;
@@ -287,7 +287,7 @@ body.dark .parrallax {
 }
 @media (max-width: 760px) {
   #galeria .container {
-    padding-top: 80px;
+    margin-top: 100px;
   }
   #galeria {
     padding-bottom: 35px;
