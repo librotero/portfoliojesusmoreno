@@ -207,9 +207,8 @@ body.dark .parrallax {
 }
 @media screen and (max-width: 720px) {
   body.dark .parrallax {
-    background-image: url("../img/imegedark.png");
+    background-image: url("../img/iniciomobile.jpg ");
     background-attachment: fixed;
-    transition: 2s;
   }
 }
 /*button init*/
@@ -262,7 +261,7 @@ body.dark .parrallax {
 }
 /*galeria*/
 #galeria .container {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 #galeria * {
   box-sizing: border-box;
