@@ -196,18 +196,18 @@ body.dark .btn__menu {
   height: 850px;
   background-size: cover;
   display: flex;
-  background-image: url("../img/inicio.jpg");
+  background-image: url("https://fondosmil.com/fondo/36779.jpg");
   background-attachment: fixed;
   transition: 2s;
 }
 body.dark .parrallax {
-  background-image: url("../img/image.png");
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-azul-marino-textura-oscura_156943-510.jpg");
   background-attachment: fixed;
   transition: 2s;
 }
 @media screen and (max-width: 720px) {
   body.dark .parrallax {
-    background-image: url("../img/iniciomobile.jpg ");
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-azul-marino-textura-oscura_156943-510.jpg");
     background-attachment: fixed;
   }
 }
@@ -226,13 +226,14 @@ body.dark .parrallax {
   .parrallax {
     width: 100%;
     height: 900px;
-    background-image: url("../img/iniciomobile.jpg");
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-azul-marino-textura-oscura_156943-510.jpg");
     background-attachment: fixed;
     transition: 1s;
   }
   .centrado h1 {
     font-size: 80px;
     color: #ffffff;
+    margin-bottom: 40px;
   }
   .centrado {
     position: absolute;
